@@ -1,10 +1,22 @@
+<div align="center">
+  <br>
+  <h1>Markdown Cheatsheet  📗</h1>
+  <strong>a quick reference</strong>
+</div>
+<br>
+
 ---
 
-`# Hello`
-# Hello
+```markdown
+# hello
+```
+# hello
 
 ---
-`__hello__ _hello_ ~hello~`
+
+```markdown
+__hello__ _hello_ ~hello~
+```
 
 __hello__ _hello_ ~hello~
 
