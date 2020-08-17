@@ -102,3 +102,27 @@ def hello(name):
 | hello | hello | hello |
 
 ---
+```markdown
+<details><summary>Click to expand</summary>
+
+- [skip to hello on top](#hello)
+- [some link](https://google.com)
+- [some other link](https://google.com)
+  - [some sub link](https://google.com)
+    - [sub sub link](https://google.com)
+  - [some other sub link](https://google.com)
+
+</details>
+```
+<details><summary>Click to expand</summary>
+
+- [skip to hello on top](#hello)
+- [some link](https://google.com)
+- [some other link](https://google.com)
+  - [some sub link](https://google.com)
+    - [sub sub link](https://google.com)
+  - [some other sub link](https://google.com)
+
+</details>
+
+---
