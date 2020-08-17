@@ -8,3 +8,4 @@
 
 
 1. [Markdown Cheatsheet](https://github.com/hongmei-codes/cheetsheet-collection/blob/master/markdown.md)
+2. [Manage Multiple Git Accounts] (https://github.com/hongmei-codes/cheatsheet-collection/blob/master/git-profiles.md)
