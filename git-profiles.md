@@ -50,12 +50,16 @@ In VSCode, add the following to `config` file:
 Host github.com-personal
    HostName github.com
    User git
+   AddKeysToAgent yes
+   UseKeychain yes
    IdentityFile ~/.ssh/id_rsa_personal
 
 # Work account
 Host github.com-work
    HostName github.com
    User git
+   AddKeysToAgent yes
+   UseKeychain yes
    IdentityFile ~/.ssh/id_rsa_work
 ```
 
