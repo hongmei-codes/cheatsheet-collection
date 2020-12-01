@@ -103,7 +103,11 @@ def hello(name):
 
 <table>
 <tr>
-<th>do ✅</th><th>don't ⛔️</th>
+<th>✅</th><th>⛔️</th>
+</tr>
+<tr>
+<td>montes nascetur ridiculus mus mauris</td>
+<td>vitae elementum curabitur vitae nunc</td>
 </tr>
 <tr>
 <td>
@@ -111,12 +115,7 @@ def hello(name):
 ```json
 {
 "id": 10,
-"username": "alanpartridge",
-"email": "alan@alan.com",
-"password_hash": "$2a$10",
-"password_salt": "$2a$10",
-"created_at": "2015-02-14T20:45:26.433Z",
-"updated_at": "2015-02-14T20:45:26.540Z"
+"username": "hello"
 }
 ```
 </td>
@@ -124,13 +123,8 @@ def hello(name):
 
 ```json
 {
-"id": 10,
-"username": "alanpartridge",
-"email": "alan@alan.com",
-"password_hash": "$2a$10",
-"password_salt": "$2a$10",
-"created_at": "2015-02-14T20:45:26.433Z",
-"updated_at": "2015-02-14T20:45:26.540Z"
+"id": 11,
+"username": "hi"
 }
 ```
 </td>
