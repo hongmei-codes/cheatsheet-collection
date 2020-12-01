@@ -101,6 +101,70 @@ def hello(name):
 | hello | hello | hello |
 | hello | hello | hello |
 
+<table>
+<tr>
+<th>do ✅</th><th>don't ⛔️</th>
+</tr>
+<tr>
+<td>
+
+```json
+{
+"id": 10,
+"username": "alanpartridge",
+"email": "alan@alan.com",
+"password_hash": "$2a$10",
+"password_salt": "$2a$10",
+"created_at": "2015-02-14T20:45:26.433Z",
+"updated_at": "2015-02-14T20:45:26.540Z"
+}
+```
+</td>
+<td>
+
+```json
+{
+"id": 10,
+"username": "alanpartridge",
+"email": "alan@alan.com",
+"password_hash": "$2a$10",
+"password_salt": "$2a$10",
+"created_at": "2015-02-14T20:45:26.433Z",
+"updated_at": "2015-02-14T20:45:26.540Z"
+}
+```
+</td>
+</tr>
+</table>
+
+```html
+<table>
+<tr>
+<th>do ✅</th><th>don't ⛔️</th>
+</tr>
+<tr>
+<td>
+
+\`\`\`json
+{
+"id": 10,
+"username": "hi",
+}
+\`\`\`
+</td>
+<td>
+
+\`\`\`json
+{
+"id": 10,
+"username": "hey"
+}
+\`\`\`
+</td>
+</tr>
+</table>
+```
+
 ---
 ```markdown
 <details><summary>Click to expand</summary>
