@@ -101,6 +101,64 @@ def hello(name):
 | hello | hello | hello |
 | hello | hello | hello |
 
+<table>
+<tr>
+<th>✅</th><th>⛔️</th>
+</tr>
+<tr>
+<td>montes nascetur ridiculus mus mauris</td>
+<td>vitae elementum curabitur vitae nunc</td>
+</tr>
+<tr>
+<td>
+
+```json
+{
+"id": 10,
+"username": "hello"
+}
+```
+</td>
+<td>
+
+```json
+{
+"id": 11,
+"username": "hi"
+}
+```
+</td>
+</tr>
+</table>
+
+```html
+<table>
+<tr>
+<th>do ✅</th><th>don't ⛔️</th>
+</tr>
+<tr>
+<td>
+
+\`\`\`json
+{
+"id": 10,
+"username": "hi",
+}
+\`\`\`
+</td>
+<td>
+
+\`\`\`json
+{
+"id": 10,
+"username": "hey"
+}
+\`\`\`
+</td>
+</tr>
+</table>
+```
+
 ---
 ```markdown
 <details><summary>Click to expand</summary>
